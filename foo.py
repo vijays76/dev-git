@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 # Open a file
+# This is a change done in Linux
 fo = open("foo.txt", "r+")
 str = fo.read(10)
 print "Read String is : ", str
